@@ -1,0 +1,170 @@
+---
+title: "Agustin Calatroni CV"
+author: Agustin Calatroni
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: ['css/styles.css', 'resume']
+    self_contained: true
+---
+
+<!-- import Monserrat and PT Serif Google fonts -->
+
+```{=html}
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+</style>
+```
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+
+# packages
+pacman::p_load(tidyverse, glue)
+
+# Set this to true to have links turned into footnotes at the end of the document
+PDF_EXPORT <- FALSE
+
+# Holds all the links that were inserted for placement at the end
+links <- c()
+
+source('parsing_functions.R')
+
+# Load csv with position info
+position_data <- readxl::read_xlsx('Agustin_Calatroni.xlsx')
+```
+
+```{r}
+# When in export mode the little dots are unaligned, so fix that. 
+if(PDF_EXPORT){
+  cat("
+  <style>
+  :root{
+    --decorator-outer-offset-left: -6.5px;
+  }
+  </style>")
+}
+```
+
+# Aside
+
+![Agustin Calatroni](Agustin_Calatroni.png){width="80%"}
+
+```{r}
+# When in export mode the little dots are unaligned, so fix that. 
+if(PDF_EXPORT){
+  cat("View this CV online with links at [_acalatroni.com/cv_](https://github.com/agstn)")
+} else {
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/agstn/cv/raw/master/Agustin_Calatroni.pdf)")
+}
+```
+
+## Contact {#contact}
+
+|                                                                                                              |
+|--------------------------------------------------------------------------------------------------------------|
+| <i class="fa fa-envelope"></i> [acalatroni\@gmail.com](mailto:acalatroni@gmail.com){.email}                  |
+| <i class="fa fa-twitter"></i> [acalatr](https://twitter.com/acalatr)                                         |
+| <i class="fa fa-github"></i> [github.com/agstn](https://github.com/agstn)                                    |
+| <i class="fa fa-linkedin"></i> [Agustin Calatroni](https://www.linkedin.com/in/agustin-calatroni-41280b132/) |
+| <i class="fa fa-phone"></i> (858) 754-8842                                                                   |
+
+## Fluent Languages {#foreign-language}
+
+|                                                                                                       |         |
+|-------------------------------------------------------------------------------------------------------|---------|
+| ![Spanish](https://raw.githubusercontent.com/HatScripts/circle-flags/master/flags/ar.svg){width="50"} | Spanish |
+| ![French](https://raw.githubusercontent.com/HatScripts/circle-flags/master/flags/fr.svg){width="50"}  | French  |
+| ![English](https://raw.githubusercontent.com/HatScripts/circle-flags/master/flags/us.svg){width="50"} | English |
+
+## Software Skills
+
+|                        |
+|------------------------|
+| R & RStudio            |
+| SAS                    |
+| h2oai machine learning |
+
+## Disclaimer {#disclaimer}
+
+Last updated on `r Sys.Date()`.
+
+# Main
+
+## Agustin Calatroni {#title}
+
+```{r}
+intro_text <- "<big><b>Principal statistician</b> in NIAID-funded Statistical Coordinating Center at Rho since 2005, as such I design, implement, analyze and report on multicenter randomized, observational, and mechanistic clinical trial studies related to asthma, allergy, and immunology. Furthermore, I provide internal and industry sponsors statistical consulting on complex and novel statistical methodologies.</big>
+"
+
+cat(sanitize_links(intro_text))
+```
+
+## Education {data-icon="graduation-cap" data-concise="true"}
+
+```{r}
+print_section(position_data, 'education')
+```
+
+<br>
+
+## Industry Positions {data-icon="suitcase"}
+
+```{r}
+print_section(position_data, 'positions')
+```
+
+<br>
+
+## Teaching & Mentoring {data-icon="chalkboard-teacher"}
+
+::: {.aside}
+<i class="fas fa-handshake"></i> I have been fortunate to have had exceptional mentorship in my profession. Mentoring is a critical element to nurture and grow a great collaborative problem-solving team. This cultivates an environment of continued education, growth, and leadership development. I had mentor members of our group on project guidance and statistical advice.
+:::
+
+```{r}
+print_section(position_data, 'teaching_leadership_positions')
+```
+
+<br>
+
+## Selected Data Science Writing {data-icon="chart-line"}
+
+::: {.aside}
+<i class="far fa-chart-bar"></i> Our industry is driven by data. Every phase of our trials requires us to collect, monitor, analyze, and report data. While each of these steps is equally important, reporting is arguably the most impactful step. When we report data, we give them to key decision-makers and invite them to interpret the data and draw conclusions. As part of the Center for Applied Data Visualization I been researching and promoting the best practices and tools for visualizing and reporting data. As such, I developed dozens of novel graphics for both static reports and interactive web-based use. <br> <a href=" http://graphics.rhoworld.com/ /"> Examples for data visualization and statistical graphics </a>
+:::
+
+```{r}
+print_section(position_data, 'data_science_writings')
+```
+
+<br>
+
+## Selected Publications {data-icon="book"}
+
+::: {.aside}
+<i class="fas fa-edit"></i> Together as a team of investigators we are motivated by discovery and results to improve health, extend life, and enhance quality of life. We achieve this by helping our federal and academic clients run clinical trials and epidemiological studies, while also guiding them through complex complex and novel statistical methodology in manuscript writing, and presentations. <br> <br> As a Principal Statistician for the Statistical and Clinical Coordinating Center at the Inner-City Asthma Consortium (ICAC), the Atopic Dermatitis Research Network (ADRN) and Immune Tolerance Network (ITN), I provide statistical expertise as well as scientific leadership in developing clinical trials to study asthma interventions, allergen immunotherapy and environmental exposures and their roles in allergy and asthma; translational research as well as the analysis of big omics-data.
+:::
+
+```{r}
+print_section(position_data, 'academic_articles')
+```
+
+<br>
+
+```{r}
+if(PDF_EXPORT){
+  cat("
+Links {data-icon=link}
+--------------------------------------------------------------------------------
+<br>
+")
+  
+  walk2(links, 1:length(links), function(link, index){
+    print(glue('{index}. {link}'))
+  })
+}
+```
