@@ -58,7 +58,7 @@ if(PDF_EXPORT){
 if(PDF_EXPORT){
   cat("View this CV online with links at [_acalatroni.com/cv_](https://github.com/agstn)")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/agstn/cv/raw/master/Agustin_Calatroni.pdf)")
+  cat("[<i class='fas fa-download'></i> View a PDF of this CV](https://github.com/agstn/CV/blob/main/Agustin_Calatroni.pdf)")
 }
 ```
 
