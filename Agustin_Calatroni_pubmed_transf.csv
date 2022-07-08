@@ -1,21 +1,70 @@
 section,in_resume,title,loc,institution,start,end
-academic_articles,TRUE,[Randomized trial of omalizumab (anti-IgE) for asthma in inner-city children](https://pubmed.ncbi.nlm.nih.gov/21410369),N Engl J Med,"",2011,2011
-academic_articles,TRUE,[Early-life home environment and risk of asthma among inner-city children](https://pubmed.ncbi.nlm.nih.gov/28939248),J Allergy Clin Immunol,"",2018,2018
-academic_articles,TRUE,[Preseasonal treatment with either omalizumab or an inhaled corticosteroid boost to prevent fall asthma exacerbations](https://pubmed.ncbi.nlm.nih.gov/26518090),J Allergy Clin Immunol,"",2015,2015
-academic_articles,TRUE,[Distinct nasal airway bacterial microbiotas differentially relate to exacerbation in pediatric patients with asthma](https://pubmed.ncbi.nlm.nih.gov/31201890),J Allergy Clin Immunol,"",2019,2019
-academic_articles,TRUE,"[Effects of Omalizumab on Rhinovirus Infections, Illnesses, and Exacerbations of Asthma](https://pubmed.ncbi.nlm.nih.gov/28608756)",Am J Respir Crit Care Med,"",2017,2017
-academic_articles,TRUE,[Enhanced plasmacytoid dendritic cell antiviral responses after omalizumab](https://pubmed.ncbi.nlm.nih.gov/28870461),J Allergy Clin Immunol,"",2018,2018
-academic_articles,TRUE,[The nonlesional skin surface distinguishes atopic dermatitis with food allergy as a unique endotype](https://pubmed.ncbi.nlm.nih.gov/30787169),Sci Transl Med,"",2019,2019
-academic_articles,TRUE,[Longitudinal Phenotypes of Respiratory Health in a High-Risk Urban Birth Cohort](https://pubmed.ncbi.nlm.nih.gov/30079758),Am J Respir Crit Care Med,"",2019,2019
-academic_articles,TRUE,[Graphic depiction of bioinformatics data](https://pubmed.ncbi.nlm.nih.gov/28647586),J Allergy Clin Immunol,"",2017,2017
-academic_articles,TRUE,[Sensitization and Exposure to Pets: The Effect on Asthma Morbidity in the US Population](https://pubmed.ncbi.nlm.nih.gov/28694047),J Allergy Clin Immunol Pract,"",2018,2018
-academic_articles,TRUE,[Can we predict fall asthma exacerbations? Validation of the seasonal asthma exacerbation index](https://pubmed.ncbi.nlm.nih.gov/28238748),J Allergy Clin Immunol,"",2017,2017
-academic_articles,TRUE,[DNA methylation and childhood asthma in the inner city](https://pubmed.ncbi.nlm.nih.gov/25769910),J Allergy Clin Immunol,"",2015,2015
-academic_articles,TRUE,[Cockroach allergen component analysis of children with or without asthma and rhinitis in an inner-city birth cohort](https://pubmed.ncbi.nlm.nih.gov/31201891),J Allergy Clin Immunol,"",2019,2019
-academic_articles,TRUE,[Early decrease in basophil sensitivity to Ara h 2 precedes sustained unresponsiveness after peanut oral immunotherapy](https://pubmed.ncbi.nlm.nih.gov/31377342),J Allergy Clin Immunol,"",2019,2019
-academic_articles,TRUE,[The association of allergic sensitization patterns in early childhood with disease manifestations and immunological reactivity at 10 years of age](https://pubmed.ncbi.nlm.nih.gov/31046157),Clin Exp Allergy,"",2019,2019
+academic_articles,TRUE,[Risk factors for SARS-CoV-2 infection and transmission in households with children with asthma and allergy: AÂ prospective surveillance study](https://pubmed.ncbi.nlm.nih.gov/35660376),J Allergy Clin Immunol,"",2022,2022
+academic_articles,TRUE,[Seasonal airway microbiome and transcriptome interactions promote childhood asthma exacerbations](https://pubmed.ncbi.nlm.nih.gov/35149044),J Allergy Clin Immunol,"",2022,2022
+academic_articles,TRUE,[17q12-q21 variants interact with early-life exposures to modify asthma risk in Black children](https://pubmed.ncbi.nlm.nih.gov/34862819),Clin Exp Allergy,"",2022,2022
+academic_articles,TRUE,"[Heterogeneity of magnitude, allergen immunodominance, and cytokine polarization of cockroach allergen-specific T cell responses in allergic sensitized children](https://pubmed.ncbi.nlm.nih.gov/34691392)",Clin Transl Allergy,"",2021,2021
+academic_articles,TRUE,[The Effect of Age on T-Regulatory Cell Number and Function in Patients With Asthma](https://pubmed.ncbi.nlm.nih.gov/34212550),Allergy Asthma Immunol Res,"",2021,2021
+academic_articles,TRUE,[Trajectories of adiposity indicators and association with asthma and lung function in urban minority children](https://pubmed.ncbi.nlm.nih.gov/34166677),J Allergy Clin Immunol,"",2021,2021
+academic_articles,TRUE,[Endotype of allergic asthma with airway obstruction in urban children](https://pubmed.ncbi.nlm.nih.gov/33713771),J Allergy Clin Immunol,"",2021,2021
+academic_articles,TRUE,[Maternal stress and depression are associated with respiratory phenotypes in urban children](https://pubmed.ncbi.nlm.nih.gov/33713764),J Allergy Clin Immunol,"",2021,2021
+academic_articles,TRUE,[Development of a human skin commensal microbe for bacteriotherapy of atopic dermatitis and use in a phase 1 randomized clinical trial](https://pubmed.ncbi.nlm.nih.gov/33619370),Nat Med,"",2021,2021
+academic_articles,TRUE,"[Aeroallergen Sensitization, Serum IgE, and Eosinophilia as Predictors of Response to Omalizumab Therapy During the Fall Season Among Children with Persistent Asthma](https://pubmed.ncbi.nlm.nih.gov/32376491)",J Allergy Clin Immunol Pract,"",2020,2020
+academic_articles,TRUE,[Hyperlinear palms as a clinical finding in peanut allergy](https://pubmed.ncbi.nlm.nih.gov/32376483),J Allergy Clin Immunol Pract,"",2020,2020
+academic_articles,TRUE,[Skin tape proteomics identifies pathways associated with transepidermal water loss and allergen polysensitization in atopic dermatitis](https://pubmed.ncbi.nlm.nih.gov/32360271),J Allergy Clin Immunol,"",2020,2020
+academic_articles,TRUE,[Lower influenza-specific cell-mediated immune responses in individuals with atopic dermatitis compared with healthy controls](https://pubmed.ncbi.nlm.nih.gov/32347777),Hum Vaccin Immunother,"",2020,2020
 academic_articles,TRUE,[Serum IL-6: AÂ biomarker in childhood asthma?](https://pubmed.ncbi.nlm.nih.gov/32004524),J Allergy Clin Immunol,"",2020,2020
-academic_articles,TRUE,[Bedroom allergen exposures in US households](https://pubmed.ncbi.nlm.nih.gov/29198587),J Allergy Clin Immunol,"",2018,2018
+academic_articles,TRUE,[Early decrease in basophil sensitivity to Ara h 2 precedes sustained unresponsiveness after peanut oral immunotherapy](https://pubmed.ncbi.nlm.nih.gov/31377342),J Allergy Clin Immunol,"",2019,2019
+academic_articles,TRUE,[Cockroach allergen component analysis of children with or without asthma and rhinitis in an inner-city birth cohort](https://pubmed.ncbi.nlm.nih.gov/31201891),J Allergy Clin Immunol,"",2019,2019
+academic_articles,TRUE,[Distinct nasal airway bacterial microbiotas differentially relate to exacerbation in pediatric patients with asthma](https://pubmed.ncbi.nlm.nih.gov/31201890),J Allergy Clin Immunol,"",2019,2019
+academic_articles,TRUE,[The association of allergic sensitization patterns in early childhood with disease manifestations and immunological reactivity at 10 years of age](https://pubmed.ncbi.nlm.nih.gov/31046157),Clin Exp Allergy,"",2019,2019
+academic_articles,TRUE,[The nonlesional skin surface distinguishes atopic dermatitis with food allergy as a unique endotype](https://pubmed.ncbi.nlm.nih.gov/30787169),Sci Transl Med,"",2019,2019
 academic_articles,TRUE,[A computerized decision support tool to implement asthma guidelines for children and adolescents](https://pubmed.ncbi.nlm.nih.gov/30529451),J Allergy Clin Immunol,"",2019,2019
+academic_articles,TRUE,[Longitudinal Phenotypes of Respiratory Health in a High-Risk Urban Birth Cohort](https://pubmed.ncbi.nlm.nih.gov/30079758),Am J Respir Crit Care Med,"",2019,2019
 academic_articles,TRUE,[Building Bridges for Asthma Care: Reducing school absence for inner-city children with health disparities](https://pubmed.ncbi.nlm.nih.gov/30055181),J Allergy Clin Immunol,"",2019,2019
+academic_articles,TRUE,[Bedroom allergen exposures in US households](https://pubmed.ncbi.nlm.nih.gov/29198587),J Allergy Clin Immunol,"",2018,2018
+academic_articles,TRUE,[Early-life home environment and risk of asthma among inner-city children](https://pubmed.ncbi.nlm.nih.gov/28939248),J Allergy Clin Immunol,"",2018,2018
+academic_articles,TRUE,[Enhanced plasmacytoid dendritic cell antiviral responses after omalizumab](https://pubmed.ncbi.nlm.nih.gov/28870461),J Allergy Clin Immunol,"",2018,2018
+academic_articles,TRUE,[Sensitization and Exposure to Pets: The Effect on Asthma Morbidity in the US Population](https://pubmed.ncbi.nlm.nih.gov/28694047),J Allergy Clin Immunol Pract,"",2018,2018
+academic_articles,TRUE,[Graphic depiction of bioinformatics data](https://pubmed.ncbi.nlm.nih.gov/28647586),J Allergy Clin Immunol,"",2017,2017
+academic_articles,TRUE,[Data-driven programmatic approach to analysis of basophil activation tests](https://pubmed.ncbi.nlm.nih.gov/28618453),Cytometry B Clin Cytom,"",2018,2018
+academic_articles,TRUE,"[Effects of Omalizumab on Rhinovirus Infections, Illnesses, and Exacerbations of Asthma](https://pubmed.ncbi.nlm.nih.gov/28608756)",Am J Respir Crit Care Med,"",2017,2017
+academic_articles,TRUE,[Can we predict fall asthma exacerbations? Validation of the seasonal asthma exacerbation index](https://pubmed.ncbi.nlm.nih.gov/28238748),J Allergy Clin Immunol,"",2017,2017
+academic_articles,TRUE,[Patterns of immune development in urban preschoolers with recurrent wheeze and/or atopy](https://pubmed.ncbi.nlm.nih.gov/28089873),J Allergy Clin Immunol,"",2017,2017
 academic_articles,TRUE,[Minimally important differences and risk levels for the Composite Asthma Severity Index](https://pubmed.ncbi.nlm.nih.gov/27744028),J Allergy Clin Immunol,"",2017,2017
+academic_articles,TRUE,[Effect of aging on sputum inflammation and asthma control](https://pubmed.ncbi.nlm.nih.gov/27725186),J Allergy Clin Immunol,"",2017,2017
+academic_articles,TRUE,[DNA Methylation Changes in Nasal Epithelia Are Associated with Allergic Asthma in the Inner City](https://pubmed.ncbi.nlm.nih.gov/27027970),Ann Am Thorac Soc,"",2016,2016
+academic_articles,TRUE,[Individualized Household Allergen Intervention Lowers Allergen Level But Not Asthma Medication Use: A Randomized Controlled Trial](https://pubmed.ncbi.nlm.nih.gov/27025297),J Allergy Clin Immunol Pract,"",2016,2016
+academic_articles,TRUE,[Preseasonal treatment with either omalizumab or an inhaled corticosteroid boost to prevent fall asthma exacerbations](https://pubmed.ncbi.nlm.nih.gov/26518090),J Allergy Clin Immunol,"",2015,2015
+academic_articles,TRUE,[Peanut oral immunotherapy transiently expands circulating Ara h 2-specific B cells with a homologous repertoire in unrelated subjects](https://pubmed.ncbi.nlm.nih.gov/25985925),J Allergy Clin Immunol,"",2015,2015
+academic_articles,TRUE,[Seasonal risk factors for asthma exacerbations among inner-city children](https://pubmed.ncbi.nlm.nih.gov/25794658),J Allergy Clin Immunol,"",2015,2015
+academic_articles,TRUE,[DNA methylation and childhood asthma in the inner city](https://pubmed.ncbi.nlm.nih.gov/25769910),J Allergy Clin Immunol,"",2015,2015
+academic_articles,TRUE,[Winter birth in inner-city asthmatic children is associated with increased food allergen sensitization risk](https://pubmed.ncbi.nlm.nih.gov/24954275),J Allergy Clin Immunol,"",2014,2014
+academic_articles,TRUE,[Effects of early-life exposure to allergens and bacteria on recurrent wheeze and atopy in urban children](https://pubmed.ncbi.nlm.nih.gov/24908147),J Allergy Clin Immunol,"",2014,2014
+academic_articles,TRUE,[Reassessment of omalizumab-dosing strategies and pharmacodynamics in inner-city children and adolescents](https://pubmed.ncbi.nlm.nih.gov/24565455),J Allergy Clin Immunol Pract,"",2013,2013
+academic_articles,TRUE,[Prevalence of allergic sensitization in the United States: results from the National Health and Nutrition Examination Survey (NHANES) 2005-2006](https://pubmed.ncbi.nlm.nih.gov/24522093),J Allergy Clin Immunol,"",2014,2014
+academic_articles,TRUE,[Prophylactic use of sublingual allergen immunotherapy in high-risk children: a pilot study](https://pubmed.ncbi.nlm.nih.gov/23768574),J Allergy Clin Immunol,"",2013,2013
+academic_articles,TRUE,[Lack of a relation between serum 25-hydroxyvitamin D concentrations and asthma in adolescents](https://pubmed.ncbi.nlm.nih.gov/23595876),Am J Clin Nutr,"",2013,2013
+academic_articles,TRUE,[A multi-center ring trial of allergen analysis using fluorescent multiplex array technology](https://pubmed.ncbi.nlm.nih.gov/23085532),J Immunol Methods,"",2013,2013
+academic_articles,TRUE,[Development of a standardized approach for environmental microbiota investigations related to asthma development in children](https://pubmed.ncbi.nlm.nih.gov/22975469),J Microbiol Methods,"",2012,2012
+academic_articles,TRUE,[Development and validation of the Composite Asthma Severity Index--an outcome measure for use in children and adolescents](https://pubmed.ncbi.nlm.nih.gov/22244599),J Allergy Clin Immunol,"",2012,2012
+academic_articles,TRUE,[Impact of hydroxyurea on perioperative management and outcomes in children with sickle cell anemia](https://pubmed.ncbi.nlm.nih.gov/21941139),J Pediatr Hematol Oncol,"",2011,2011
+academic_articles,TRUE,[Correlation of specific IgE to shrimp with cockroach and dust mite exposure and sensitization in an inner-city population](https://pubmed.ncbi.nlm.nih.gov/21872304),J Allergy Clin Immunol,"",2011,2011
+academic_articles,TRUE,[Differences in health-related quality of life in children with sickle cell disease receiving hydroxyurea](https://pubmed.ncbi.nlm.nih.gov/21516020),J Pediatr Hematol Oncol,"",2011,2011
+academic_articles,TRUE,[Randomized trial of omalizumab (anti-IgE) for asthma in inner-city children](https://pubmed.ncbi.nlm.nih.gov/21410369),N Engl J Med,"",2011,2011
+academic_articles,TRUE,[Allergy-related outcomes in relation to serum IgE: results from the National Health and Nutrition Examination Survey 2005-2006](https://pubmed.ncbi.nlm.nih.gov/21320720),J Allergy Clin Immunol,"",2011,2011
+academic_articles,TRUE,[Association of childhood obesity with atopic and nonatopic asthma: results from the National Health and Nutrition Examination Survey 1999-2006](https://pubmed.ncbi.nlm.nih.gov/20707763),J Asthma,"",2010,2010
+academic_articles,TRUE,"[Asthma control, adiposity, and adipokines among inner-city adolescents](https://pubmed.ncbi.nlm.nih.gov/20226295)",J Allergy Clin Immunol,"",2010,2010
+academic_articles,TRUE,[Prenatal maternal stress and cord blood innate and adaptive cytokine responses in an inner-city cohort](https://pubmed.ncbi.nlm.nih.gov/20194818),Am J Respir Crit Care Med,"",2010,2010
+academic_articles,TRUE,[Adherence to hydroxyurea therapy in children with sickle cell anemia](https://pubmed.ncbi.nlm.nih.gov/19880135),J Pediatr,"",2010,2010
+academic_articles,TRUE,[Novel relationship of serum cholesterol with asthma and wheeze in the United States](https://pubmed.ncbi.nlm.nih.gov/19800678),J Allergy Clin Immunol,"",2009,2009
+academic_articles,TRUE,[Longitudinal evaluation of externalizing and internalizing behavior problems following iron deficiency in infancy](https://pubmed.ncbi.nlm.nih.gov/19736288),J Pediatr Psychol,"",2010,2010
+academic_articles,TRUE,[Total IgE levels and asthma prevalence in the US population: results from the National Health and Nutrition Examination Survey 2005-2006](https://pubmed.ncbi.nlm.nih.gov/19647861),J Allergy Clin Immunol,"",2009,2009
+academic_articles,TRUE,[Asthma morbidity among inner-city adolescents receiving guidelines-based therapy: role of predictors in the setting of high adherence](https://pubmed.ncbi.nlm.nih.gov/19615730),J Allergy Clin Immunol,"",2009,2009
+academic_articles,TRUE,[Association of obesity with IgE levels and allergy symptoms in children and adolescents: results from the National Health and Nutrition Examination Survey 2005-2006](https://pubmed.ncbi.nlm.nih.gov/19230960),J Allergy Clin Immunol,"",2009,2009
+academic_articles,TRUE,[A pilot study of hydroxyurea to prevent chronic organ damage in young children with sickle cell anemia](https://pubmed.ncbi.nlm.nih.gov/19061213),Pediatr Blood Cancer,"",2009,2009
+academic_articles,TRUE,[Standardization and performance evaluation of mononuclear cell cytokine secretion assays in a multicenter study](https://pubmed.ncbi.nlm.nih.gov/17156490),BMC Immunol,"",2006,2006
+academic_articles,TRUE,[Effects of iron deficiency in infancy on patterns of motor development over time](https://pubmed.ncbi.nlm.nih.gov/17050023),Hum Mov Sci,"",2006,2006
+academic_articles,TRUE,[Iron status of inner-city African-American infants](https://pubmed.ncbi.nlm.nih.gov/17019689),Am J Hematol,"",2007,2007
+academic_articles,TRUE,[Iron deficiency in infancy predicts altered serum prolactin response 10 years later](https://pubmed.ncbi.nlm.nih.gov/16966351),Pediatr Res,"",2006,2006
+academic_articles,TRUE,[Breast-feeding and mental and motor development at 51/2 years](https://pubmed.ncbi.nlm.nih.gov/16530141),Ambul Pediatr,"",2006,2006
+academic_articles,TRUE,[Diet-induced iron deficiency anemia and pregnancy outcome in rhesus monkeys](https://pubmed.ncbi.nlm.nih.gov/16522913),Am J Clin Nutr,"",2006,2006

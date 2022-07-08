@@ -4,7 +4,7 @@ author: Agustin Calatroni
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
-    css: ['css/styles.css', 'resume']
+    css: ['styles.css', 'resume']
     self_contained: true
 ---
 
@@ -74,11 +74,11 @@ if(PDF_EXPORT){
 
 ## Fluent Languages {#foreign-language}
 
-|                                                                                                       |         |
-|-------------------------------------------------------------------------------------------------------|---------|
-| ![Spanish](https://raw.githubusercontent.com/HatScripts/circle-flags/master/flags/ar.svg){width="50"} | Spanish |
-| ![French](https://raw.githubusercontent.com/HatScripts/circle-flags/master/flags/fr.svg){width="50"}  | French  |
-| ![English](https://raw.githubusercontent.com/HatScripts/circle-flags/master/flags/us.svg){width="50"} | English |
+|                                                                                         |
+|-----------------------------------------------------------------------------------------|
+| ![Spanish](https://hatscripts.github.io/circle-flags/flags/ar.svg){width="30"}  Spanish |
+| ![French](https://hatscripts.github.io/circle-flags/flags/fr.svg){width="30"}   French  |
+| ![English](https://hatscripts.github.io/circle-flags/flags/us.svg){width="30"}  English |
 
 ## Software Skills
 
@@ -86,18 +86,27 @@ if(PDF_EXPORT){
 |------------------------|
 | R & RStudio            |
 | SAS                    |
-| h2oai machine learning |
+| H2O.ai (ML)            |
+| HTML/CSS               |
 
-## Disclaimer {#disclaimer}
+## Therapeutic Areas
 
-Last updated on `r Sys.Date()`.
+|                        |
+|------------------------|
+| Asthma                 |
+| Atopic Disease         |
+| Food Allergy           |
+| Hematology             |
+| Immunology             |
+| Microbiome             |
+
 
 # Main
 
 ## Agustin Calatroni {#title}
 
 ```{r}
-intro_text <- "<big><b>Principal statistician</b> in NIAID-funded Statistical Coordinating Center at Rho since 2005, as such I design, implement, analyze and report on multicenter randomized, observational, and mechanistic clinical trial studies related to asthma, allergy, and immunology. Furthermore, I provide internal and industry sponsors statistical consulting on complex and novel statistical methodologies.</big>
+intro_text <- "<big><b>Senior Director, Biostatistics Strategy</b> in NIAID-funded Statistical Coordinating Center at Rho since 2005, as such I design, implement, analyze and report on multicenter randomized, observational, and mechanistic clinical trial studies related to asthma, allergy, and immunology. Furthermore, I provide internal and industry sponsors statistical consulting on complex and novel statistical methodologies.</big>
 "
 
 cat(sanitize_links(intro_text))
