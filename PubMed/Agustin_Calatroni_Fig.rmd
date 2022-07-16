@@ -1,0 +1,55 @@
+---
+title: "Agustin_Calatroni_Fig"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r include=FALSE}
+pacman::p_load(tidyverse)
+pacman::p_load(ggiraph)
+
+d <- tribble(~year, ~count,
+             2022,	3,
+             2021,	7,
+             2020,	5,
+             2019,	8,
+             2018,	7,
+             2017,	11,
+             2016,	4,
+             2015,	4,
+             2014,	3,
+             2013,	4,
+             2012,	3,
+             2011,	5,
+             2010,	5,
+             2009,	7,
+             2007,	1,
+             2006,	5)
+
+g <- ggplot(data = d,
+            aes(x = year, y = count, tooltip = str_glue("{year}: <b>{count}</b>") ) ) +
+   geom_bar_interactive(stat = 'identity') +
+   labs(x = NULL,
+        y = NULL,
+        title = 'Number of Publications / year') +
+   scale_x_continuous(limits = c(2005.5, 2022.5),
+                      breaks = c(2006, 2010, 2015, 2020, 2022)) +
+   theme_void() +
+   theme(panel.grid = element_blank())
+
+girafe(ggobj = g,
+       width_svg = 2.5,
+       height_svg = 1,
+       options = list(
+          opts_sizing(rescale = FALSE),
+          opts_toolbar(saveaspng = FALSE)
+       ) ) %>% 
+   htmltools::save_html("Agustin_Calatroni_FigPubs.html")
+```
+
+```{r echo=FALSE}
+htmltools::includeHTML("Agustin_Calatroni_FigPubs.html")
+```
