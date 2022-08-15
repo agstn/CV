@@ -37,6 +37,7 @@ library(fontawesome)
 --decorator-border: 3px solid #e2d3cd; /* change color and thickness of timeline */
 }
 
+
 .decorator::after{
 background-color: #e2d3cd; /* change color timeline dots */
 }
@@ -74,9 +75,7 @@ color: brown
 -   <i class="fa fa-linkedin"></i>  [Agustin Calatroni](https://www.linkedin.com/in/agustin-calatroni-41280b132/)
 -   <i class="fa fa-phone"></i>     (858) 754-8842
 -   <i class="fa fa-building"></i>  San Diego, California
-
-      
-![California](https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/images/maps/california-small.png){width="50%"}
+-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![California](https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/images/maps/california-small.png){width="40%"}
 
 ## <small>**Statistical Skills**</small> {#stat_skills}
 
@@ -89,6 +88,7 @@ color: brown
 | Visualization             |
 | Study/Patients Dashboards |
 | Clinical Trial Design     |
+| SDTM/ADaM data standards  |
 
 ## <small>**Software**</small> {#software_skills}
 
@@ -105,6 +105,7 @@ color: brown
 |------------------------------------------------------------------------|
 | [American Statistical Association](https://www.amstat.org/)               |
 | [Statisticians in the Pharmaceutical Industry (PSI)](https://psiweb.org/) |
+| [Society for Clinical Trials (SCT)](https://www.sctweb.org/)              |
 
 ## <small>**Therapeutic Areas**</small> {#therapeutic_skills}
 
@@ -115,20 +116,21 @@ color: brown
 | Food Allergy   |
 | Hematology     |
 | Immunology     |
-| Microbiome     |
+| Respiratory    |
 
 # Main
 
 ## Agustin Calatroni {#title}
 
 <font size="2px">
-Highly accomplished and driven statistician with over 20 years of industry experience and superior analytical and problem-solving skills. Possesses a broad knowledge of statistical techniques for various types of clinical trial study design and research projects. Excels in the design, implementation, analysis, and reporting of randomized, observational, and mechanistic clinical trial studies in a variety of therapeutic areas. Stays abreast of new developments in statistics and understands that communication and collaboration are key to delivering quality products. Currently serves as **Senior Director, Biostatistics** for several NIAID/DAIT Statistical Clinical Coordinating Centers. Provides statistical consulting on complex and novel statistical methodologies both in-house and with external clients.
+Highly accomplished and motivated statistician with over 20 years of industry experience with excellent analytical and problem-solving skills. As an applied clinical trials statistician, I have supported more than 50 NIH/NIAID and commercially sponsored clinical trials, where I have led the design, implementation, analysis, and reporting of randomized, observational, and mechanistic studies. As such, I support regulatory agency interactions regarding the many biometrics’ requirements of a study. For example, I was the lead statistician for the studies leading to the recent FDA and EMA approval of the first combination treatment for highly treatment-resistant tuberculosis. Additionally, I serve as a company-wide consultant for advanced statistical methodologies, statistical software, and programming and manage statisticians and programmers on the study teams.
 </font>
 
 ## Professional Experience {data-icon="suitcase"}
 
 ### Senior Director, Biostatistics
 
+<!-- <img src="img/Rho.jpg" width="40" align="center" valign="center"/>  -->
 Rho, Inc
 
 Durham, NC <br>    San Diego, CA
@@ -149,6 +151,8 @@ centers. Mentors statisticians throughout the company
 ### Statistican
 
 Center for Human Growth and Development <br> Univerity of Michigan
+<!-- <img src="img/UM.jpg" width="20" align="center" valign="center"/>  -->
+
 
 Ann Arbor, MI
 
@@ -159,6 +163,7 @@ project on the brain and behavior in early iron deficiency
 
 ### Computer Support Specialist
 
+<!-- <img src="img/SMT.jpg" width="30" align="center" valign="center"/>  -->
 SMT (SportsMEDIA Technology)
 
 Durham, NC
@@ -166,14 +171,15 @@ Durham, NC
 2002 - 1996
 
 Produced graphics, statistics and video enhancement software for live
-television sports broadcast networks <br> <i class="fa fa-award"></i>
-2000 EMMY winner *ESPN Speedworld NASCAR coverage*
+television sports broadcast networks. &nbsp;
+<i class="fa fa-award"></i> 2000 EMMY winner *ESPN Speedworld NASCAR coverage*
 
 ## Education {data-icon="graduation-cap"}
 
-### North Carolina State University
+### North Carolina State University 
+<!-- &nbsp; <img src="img/NCSU.jpg" width="25" align="bottom" valign="center"/> -->
 
-Master of Science in Statistics
+Master of Science in Statistics 
 
 Raleigh, NC
 <img src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="18" align="center" valign="center"/>
@@ -182,7 +188,8 @@ Raleigh, NC
 
 <i class="fa fa-medal"></i> Mu Sigma Rho Honors Society
 
-### Université Paris I - Panthéon-Sorbonne
+### Université Paris I - Panthéon-Sorbonne 
+<!-- &nbsp; <img src="img/Sorbonne.jpg" width="25" align="bottom" valign="center"/> -->
 
 Masters en Sciences Économiques
 
@@ -193,7 +200,8 @@ Paris, FR
 
 <i class="fa fa-medal"></i> Summa cum laude
 
-### Erasmus School of Economics
+### Erasmus School of Economics 
+<!-- &nbsp; <img src="img/Erasmus.jpg" width="20" align="bottom" valign="center"/> -->
 
 Summer School in Econometrics and Statistics
 
@@ -202,7 +210,8 @@ Rotterdam, NL
 
 1995
 
-### Université d'Aix-Marseille III
+### Université d'Aix-Marseille III 
+<!-- &nbsp; <img src="img/Aix.jpg" width="20" align="bottom" valign="center"/> -->
 
 Maîtrise en Sciences Économiques
 
@@ -213,7 +222,8 @@ Aix-en-Provence, FR
 
 <i class="fa fa-medal"></i> Summa cum laude
 
-### Lycée Franco-Argentin Jean Mermoz
+### Lycée Franco-Argentin Jean Mermoz 
+<!-- &nbsp; <img src="img/Lycee.jpg" width="20" align="bottom" valign="center"/> -->
 
 Baccalauréat en Sciences Économiques
 
@@ -256,7 +266,7 @@ Statistician podcast](https://theeffectivestatistician.com/how-augustin-calatron
 
 ::: aside
 <i class="far fa-chart-bar"></i> 
-I have a passion for statistics and data communication, insomuch that I often practice it as an extracurricular activity.  For almost a decade, I have been an Industry mentor for the Statistical and Applied Mathematical Sciences Institute (SAMSI) Industrial Math/Stat Modeling Workshop (IMSM). There I mentored graduate students in mathematics, statistics, and computational science to challenging and exciting real-world problems arising in our industry. Furthermore, I have openly contributed to the advancement of data communication, through the application of novel tables, graphics & interactive dashboards for clinical trials data standards. These contributions have gained recognition both internally and externally. [Examples of data visualization and statistical graphics](http://graphics.rhoworld.com/)
+I have a passion for statistics and often practice it as an extracurricular activity.  For almost a decade, I was a mentor for the Statistical and Applied Mathematical Sciences Institute (SAMSI) Statistical Modeling Workshop, where I mentored graduate students in mathematics, statistics, and computational science solutions to challenging real-world problems. Furthermore, I have contributed to the advancement of statistical data communication, through the application of novel tables, graphics, and interactive dashboards. These contributions have gained recognition in-house, with external clients, and among the statistical community.
 :::
 
 ### <i class="fas fa-award"></i> [RStudio Table Contest- Honorable Mention](https://www.rstudio.com/blog/winners-of-the-2021-table-contest/)
@@ -383,9 +393,10 @@ Denver, CO
 
 ## Selected Publications [<sub><small>**Full List**</small></sub>](https://pubmed.ncbi.nlm.nih.gov/?term=agustin+Calatroni%5BAuthor%5D&show_snippets=off&sort=date&size=200){data-icon="book"}
 
-### [Mepolizumab for Urban Children with Exacerbation-Prone Eosinophilic Asthma: A Randomised Controlled Trial](https://clinicaltrials.gov/ct2/show/NCT03292588)
+### [Mepolizumab for Urban Children with Exacerbation-Prone Eosinophilic Asthma: A Randomised Controlled Trial](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01198-9/fulltext) (<small>[News Release](https://www.niaid.nih.gov/news-events/monoclonal-antibody-reduces-asthma-attacks-urban-youth)</small>)
 
-The Lancet [in press]
+
+The Lancet
 
 N/A
 
